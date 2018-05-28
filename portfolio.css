@@ -14,6 +14,8 @@ body {
 	font-family: 'Gill Sans';
 }
 
+/* navigation bar */
+
 nav {
 	position: fixed;
 	top: 0;
@@ -27,6 +29,7 @@ nav {
 	z-index: 1;
 }
 
+/* nav.black is for when scrolling on the page. It makes different color and sticks nav bar to the top */
 
 nav.black {
 	background: rgba(0,0,0,0.30);
@@ -145,6 +148,7 @@ section::after {
   	animation: sdb05 1.5s infinite;
   	box-sizing: border-box;
 }
+/* frames for button to scroll down, from the main background */
 
 @-webkit-keyframes sdb05 {
   0% {
@@ -172,6 +176,26 @@ section::after {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
+}
+
+/* Section 1 - Projects */
+
+.title-01 {
+	font-size: 55px;
+	opacity: 0.6;
+	color: black;
+	margin-left: 150px;
+	margin-top: 50px;
+	padding: 0px;
+	font-family: "Gill Sans";
+	font-weight: 600;
+}
+
+.Projects-Title {
+	font-family: "Gill Sans";
+	font-size: 35px;
+	margin-left: 205px;
+	margin-top: -46.5px;
 }
 
 .gallery-projects {
@@ -217,30 +241,8 @@ section::after {
 	opacity: 1;
 }
 
-.text1 {
+.text1, .text2 {
 	color: white;
-	font-size: 50px;
-	font-weight: 300;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	text-align: center;
-}
-.text2 {
-	color: white;
-	font-size: 50px;
-	font-weight: 300;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%,-50%);
-	text-align: center;
-}
-.text3 {
-	color: black;
 	font-size: 50px;
 	font-weight: 300;
 	position: absolute;
@@ -251,7 +253,7 @@ section::after {
 	text-align: center;
 }
 
-.text4 {
+.text3, .text4 {
 	color: black;
 	font-size: 50px;
 	font-weight: 300;
@@ -279,23 +281,7 @@ section::after {
 	width: 100%;
 }
 
-.title-01 {
-	font-size: 55px;
-	opacity: 0.6;
-	color: black;
-	margin-left: 150px;
-	margin-top: 50px;
-	padding: 0px;
-	font-family: "Gill Sans";
-	font-weight: 600;
-}
-
-.Projects-Title {
-	font-family: "Gill Sans";
-	font-size: 35px;
-	margin-left: 205px;
-	margin-top: -46.5px;
-}
+/* Section 2 - About me */
 
 .coveraboutme {
 	width: 100%;
@@ -347,6 +333,8 @@ section::after {
 	font-weight: 600;
 	color: black;
 }
+
+/* button for popup window */
 
 
 .CV {
@@ -417,7 +405,7 @@ section::after {
 	cursor: pointer;
 }
 
-
+/* Social Media */
 
 .followme {
 	margin-top: 50px;
@@ -471,7 +459,7 @@ section::after {
 	color: black;
 }
 
-
+/* Section 3 - What I do */
 .whatido-03 {
 	font-size: 55px;
 	opacity: 0.6;
@@ -562,6 +550,8 @@ section::after {
 
 }
 
+/* Section 4 - Find me */
+
 .findme-04 {
 	font-size: 55px;
 	opacity: 0.6;
@@ -615,7 +605,7 @@ section::after {
 	
 }
 
-
+/* button for popup window */
 .button-map  {
 	position: absolute;
 	border-radius: 10px;
@@ -706,7 +696,6 @@ section::after {
 	from{opacity: 0}
 	to {opacity: 1}
 }
-
 
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
 
