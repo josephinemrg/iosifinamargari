@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<title>Iosifina Margari Portfolio</title>
+<link href="portfolio.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+	
+<!-- script for navbar scroll down-->	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+	  	console.log(event);
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+           window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+	
+<!--script for navbar-->
+<script>
+	$(window).on("scroll", function() {
+	"use strict";
+	if($(window).scrollTop()) {
+		$('nav').addClass('black');
+	}
+	else {
+		$('nav').removeClass('black');
+	}
+});
+
+</script>
+	
+	
+	<header>
+		<div class="wrapper">
+			<nav>
+				<label for="toggle" class="menutoggle"><i class="fas fa-ellipsis-v"></i></label>
+				<input type="checkbox" id="toggle"/>
+				<div class="menu">
+					<ul>
+						<li><a href="#gallery-projects">Projects</a></li>
+						<li><a href="#aboutme">About me</a></li>
+						<li><a href="#Design">What I do</a></li>
+						<li><a href="#Findme">Contact</a></li>
+					</ul>
+				</div>
+				
+			</nav>
+		</div>
+	</header>
+</head>
+
+<body>
+	<main>
+		<div class="central-box">		
+			<div class="logo"><img src="Portfolio Images/logo.png" alt="logo"></div>
+  			<div class="name">Iosifina Margari</div>
+			
+		</div>
+		
+		
+<div class="background">
+		</div> 
+		
+		<section id="section05" class="demo">
+  			<a href="#gallery-projects"><span></span></a>
+		</section>
+
+		<div class="title-01" id="gallery-projects">01</div>
+		<div class="Projects-Title">Projects</div>
+		
+		<div class="gallery-projects" >
+			<div class="image">
+				<a href="https://www.behance.net/gallery/57839027/Lemon-squeezer-Concept-1" target="_blank">
+					<img src="Portfolio Images/bd50fe57839027.59e5f8773e4ad.jpg" alt="lemonsqueezer">
+					<div class="overlay">
+						<div class="text1">Lemon Squeezer</div>
+					</div>
+				</a>
+			</div>
+			<div class="image">
+				<a href="https://www.behance.net/gallery/57148851/Tinos-Photography-" target="_blank">
+					<img src="Portfolio Images/138a2f57148851.59ca9980cd87e.jpg" alt="tinos">
+					<div class="overlay">
+						<div class="text2">TINOS</div>
+					</div>
+				</a>	
+			</div>
+			<div class="image">
+				<a href="https://www.behance.net/gallery/54351079/L-eaucean" target="_blank">
+					<img src="Portfolio Images/b8818354351079.5957b7f238589.jpg" alt="l'eaucean">
+					<div class="overlay">
+						<div class="text3">L'eaucean</div>
+					</div>
+				</a>
+			</div>
+			<div class="image">
+				<a href="www.google.com" target="_blank">
+					<img src="Portfolio Images/debag.jpg" alt="debag">
+					<div class="overlay">
+						<div class="text4">DeBag</div>
+						<div class="text5">Coming soon...</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+
+		
+	
+			<div class="coveraboutme" id="aboutme"></div>
+			<div class="box-aboutme">
+				<div class="title-02" >02</div>
+				<div class="Aboutme-Title" >About me</div>
+				<div class="aboutme-text">
+					<p>
+						My name is Iosifina and I'm a hard working designer, with passion on social media marketing. Skilled in Interaction and Product Design, with an appeal on UX/UI. 
+						I am always happy and enthusiastic to explore and devellop new ways to engange the audience and make sure that they will enjoy
+						the journey on my sites or products. Currently I am studying for a Master of Engineering (M.Eng.) focused in Product and Systems Design Engineering. Alongside, I work voluntarily as Social Media Manager, in <a href="https://www.facebook.com/TEDxUniversityoftheAegean/" target="_blank">TEDxUniversityoftheAegean.</a>
+					</p>
+				</div>
+		
+				<button id="cv" class="CV">CV</button>
+				
+				<div id="cvpopup" class="cvpopup">
+					<div class="cvcontent">
+						<span class="closePopup">&times;</span>
+						<img src="Portfolio Images/Iosifina Margari - CV.jpg">
+					</div>
+				</div>
+			
+				<div class="followme">
+					Follow me on Social Media
+				</div>
+					<div class="socialmediaicons">
+						<ul>
+							<li><a href="https://www.facebook.com/iwchfinaa" target="_blank">
+								<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/josephinemrg/" target="_blank">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.behance.net/josephinemrg" target="_blank">
+									<i class="fab fa-behance"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/in/iosifina-margari-8892ab129/" target="_blank">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+			
+		
+		
+		<div class="design" id="Design">
+			<div class="whatido-03">03</div>
+			<div class="whatido-title">What I do</div>
+		</div>
+		
+		<div class="Boxes">
+			<div class="Box one">
+				<img src="Portfolio Images/search.png" alt="research">
+				<p>Research</p>
+				<div class="details">
+					<p>"Research is to see what everybody else has seen, and to think what nobody else has thought." </p>
+				</div>
+			</div>	
+			<div class="Box two">
+				<img src="Portfolio Images/web-development.png" alt="webdesign">			
+				<p>Web Design</p>
+				<div class="details">
+					<p>"The struggle between responsive websites and beautiful templates." </p>
+				</div>		
+			</div>			
+			<div class="Box three">
+				<img src="Portfolio Images/share.png" alt="socialemdia">
+				<p>Social Media</p>
+				<div class="details">
+					<p>"The first rule of social media is that everything changes all the time. What won’t change is the community’s desire to network.”" </p>
+				</div>			
+			</div>		
+		</div>
+		</div>
+	</main>
+</body>
+	
+	
+<footer>
+		
+	<div class="findme-whitebox">
+		<div class="grey box">
+			<div class="find me" id="Findme">
+				<div class="findme-04">04</div>
+				<div class="findme-title">Contact</div>
+			</div>
+			<div class="white whitebox">
+			<p> Iosifina Margari <br>
+				<br>
+				email: josephinemrg@gmail.com <br>
+				<br>
+				m.phone : +306981066042 <br>
+				<br>
+				Syros, Cyclades, Greece 
+			</p>
+			<div class="rights">
+				<p>2018 All rights reserved. Made by Iosifina Margari</p>
+			</div>
+		</div>
+		
+			
+	
+			<button id="mappopup" class="button-map" >Map View</button>
+			
+			<div id="simplePopup" class="popup">
+					<div class="popup-content">
+						<span class="closeBtn">&times;</span>
+						<p>University of the Aegean, Syros, Greece</p>
+						<div class="googlemap" id="map" ></div>
+							<script>
+							function myMap() {
+							  var myCenter = new google.maps.LatLng(37.445593, 24.941922);
+							  var mapCanvas = document.getElementById("map");
+							  var mapOptions = {center: myCenter, zoom: 17};
+							  var map = new google.maps.Map(mapCanvas, mapOptions);
+							  var marker = new google.maps.Marker({position:myCenter});
+							  marker.setMap(map);
+							}
+							</script>
+							<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-3k_bXDZcig_DsGjdXfs9u_y2ypQmOEg&callback=myMap"></script>
+					</div>
+
+			</div>
+
+			
+		
+		</div>
+	</div>
+	
+	
+
+<script src="jquery.js"></script>
+	
+</footer>
+
+
+</html>
