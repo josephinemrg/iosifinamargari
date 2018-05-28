@@ -10,38 +10,7 @@
 
 
 	
-<!-- script for navbar scroll down-->	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-	  	console.log(event);
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 600, function(){
-           window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-	
-<!--script for navbar-->
-<script>
-	$(window).on("scroll", function() {
-	"use strict";
-	if($(window).scrollTop()) {
-		$('nav').addClass('black');
-	}
-	else {
-		$('nav').removeClass('black');
-	}
-});
 
-</script>
 	
 	
 	<header>
@@ -108,13 +77,12 @@ $(document).ready(function(){
 				</a>
 			</div>
 			<div class="image">
-				<a href="www.google.com" target="_blank">
 					<img src="Portfolio Images/debag.jpg" alt="debag">
 					<div class="overlay">
 						<div class="text4">DeBag</div>
 						<div class="text5">Coming soon...</div>
 					</div>
-				</a>
+				
 			</div>
 		</div>
 		
@@ -256,7 +224,38 @@ $(document).ready(function(){
 	</div>
 	
 	
+<!-- script for navbar scroll down-->	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+	  	console.log(event);
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+           window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+	
+<!--script for navbar-->
+<script>
+	$(window).on("scroll", function() {
+	"use strict";
+	if($(window).scrollTop()) {
+		$('nav').addClass('black');
+	}
+	else {
+		$('nav').removeClass('black');
+	}
+});
 
+</script>
 <script src="jquery.js"></script>
 	
 </footer>

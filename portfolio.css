@@ -767,6 +767,18 @@ section::after {
 			transition: .3s;
 		}
 	  
+	  nav.black {
+			height: 0px;
+			padding: 0 0px 0px 0;
+		}
+	  
+		  nav.black ul li a{
+			color: black;
+			font-size: 22px;
+			line-height: 50px;
+		}
+	  
+	  
 	  #toggle:checked + .menu {
 		  display: block;
 	  }
@@ -1003,6 +1015,17 @@ section::after {
 			text-decoration: none;
 			transition: .3s;
 		}
+	  nav.black {
+			height: 0px;
+			padding: 0 0px 0px 0;
+		}
+	  
+		  nav.black ul li a{
+			color: black;
+			font-size: 18px;
+			line-height: 50px;
+		}
+	  
 	  
 	  #toggle:checked + .menu {
 		  display: block;
@@ -1304,6 +1327,17 @@ section::after {
 			padding: 2px 0px;
 			text-decoration: none;
 			transition: .3s;
+		}
+	  
+		 nav.black {
+			height: 0px;
+			padding: 0 0px 0px 0;
+		}
+	  
+		  nav.black ul li a{
+			color: black;
+			font-size: 18px;
+			line-height: 50px;
 		}
 	  
 	  #toggle:checked + .menu {
