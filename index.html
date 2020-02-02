@@ -192,33 +192,6 @@
 		</div>
 		
 			
-	<!--Button for Map View Pop Up Window-->
-			<button id="mappopup" class="button-map" >Map View</button>
-			
-			<div id="simplePopup" class="popup">
-					<div class="popup-content">
-						<span class="closeBtn">&times;</span>
-						<p>University of the Aegean, Syros, Greece</p>
-						<div class="googlemap" id="map" ></div>
-							<script>
-							function myMap() {
-							  var myCenter = new google.maps.LatLng(37.445593, 24.941922);
-							  var mapCanvas = document.getElementById("map");
-							  var mapOptions = {center: myCenter, zoom: 17};
-							  var map = new google.maps.Map(mapCanvas, mapOptions);
-							  var marker = new google.maps.Marker({position:myCenter});
-							  marker.setMap(map);
-							}
-							</script>
-							<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-3k_bXDZcig_DsGjdXfs9u_y2ypQmOEg&callback=myMap"></script>
-					</div>
-
-			</div>
-
-			
-		
-		</div>
-	</div>
 	
 	
 <!-- script for navbar scroll down-->	
